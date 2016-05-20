@@ -1,0 +1,51 @@
+/* Page Structure */	
+.artHolder {
+	float: left;
+	margin: 5px 5px 30px;
+	border-radius: 6px;
+	height: 203px;
+	width: 312px;
+	overflow: hidden;
+	position: relative;
+}
+
+.artHolder:hover {
+	text-decoration: none !important;
+}
+
+.wallpaper {
+	height: 171px;
+	width: 312px;
+	background-size: 312px auto;
+	border: 2px solid #121212;
+	float: left;
+	margin: 0;
+}
+
+.subTitle {
+	color: #ECE7C5;
+	float: left;
+	margin: 5px 0px 0px 9px;
+	width: 293px;
+	font-size: 13px;
+	text-align: center;
+}
+
+.subTitle > a:hover {
+	text-decoration: underline !important;
+}
+			
+td {
+	vertical-align: top;
+}
+
+.overlay {
+	background-position: center center;
+	left: 0px;
+	position: absolute;
+	top: 2px;
+}
+
+.overlay:hover, .artHolder:hover .overlay {
+	background-image: url("/images/hover_overlay2.png");
+}
