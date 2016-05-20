@@ -27,10 +27,12 @@ img {
 	position: relative;
 	width: 1100px;
 	margin: auto;
+	background-image: url(grey-texture-15885.jpg);
 }
 
 .wrapper .addSpace {
 	height: 213px;
+	background-image: url(breaking_into_the_industry_news_header_1_723x250.jpg);
 }
 
 textarea {
@@ -53,6 +55,7 @@ input, select {
 
 .right {
 	float: right;
+	animation-direction: normal;
 }
 
 .centerIt {
@@ -101,7 +104,7 @@ input, select {
 
 #loginBar input, #loginBar select {
 	margin: 7px 0 0 10px;
-	width: 157px;
+	width: 100px;
 }
 
 #logged > div {
@@ -132,13 +135,13 @@ input, select {
 .mNav, #mLeaves, #mLogo, #p4f {
 	position: absolute;
 	display: block;
-	left: 50%; /* align left edge with center of viewport */
+	left: 513px; /* align left edge with center of viewport */
 }
 
 .mNav {
-	width: 386px;
-	height: 102px;
-	top: 95px;
+	width: 668px;
+	height: 103px;
+	top: 161px;
 	z-index: 65;
 }
 
@@ -161,7 +164,7 @@ input, select {
 
 .mNav .button:hover, .mNav .button.hovering, .mNav .button:hover p, .mNav .button.hovering p {
 	background-position: 0px -102px;
-	color: #FFBF24;
+	color: #000000;
 }
 
 .navLeft p {
@@ -173,12 +176,12 @@ input, select {
 }
 
 #mLeaves {
-    background-image: url("/images/mLeaves.png");
-    height: 91px;
-    left: 0;
-    top: 37px;
-    width: 100%;
-    z-index: 34;
+	background-image: url("/images/mLeaves.png");
+	height: 30px;
+	left: 974px;
+	top: 153px;
+	width: 102px;
+	z-index: 34;
 }
 
 #mLogo {
@@ -186,7 +189,7 @@ input, select {
 	height: 180px;
 	margin-left: -167px;
 	background-image: url('/images/mLogo.png');
-	top: 64px;
+	top: 79px;
 	z-index: 65;
 }
 
